@@ -7,6 +7,7 @@ from train import TrackImages
 from add_new import draw_ui
 import csv
 import os
+import Search
 
 
 #UI
@@ -50,7 +51,7 @@ add_new_student = tk.Button(window, text="Add New Student", bg="#01a157", font=h
 add_new_student.grid(row=2, column=0, columnspan=2, sticky='news', padx=(20, 10), pady=(10, 20))
 
 #button4
-search_student = tk.Button(window, text="Search Student", bg="#d84a38", font=helv24)
+search_student = tk.Button(window, text="Search Student", bg="#d84a38", font=helv24, command=Search.search)
 search_student.grid(row=2, column=2, columnspan=2, sticky='news', padx=(10, 20), pady=(10, 20))
 
 Grid.rowconfigure(window, 0, weight=1)
