@@ -10,7 +10,6 @@ import os
 import Search
 
 
-#UI
 def open_add_new():
     draw_ui()
 
@@ -27,7 +26,6 @@ window.configure(background='#f9f9f9')
 helv36 = font.Font(family='Helvetica', size=36, weight=font.BOLD)
 helv24 = font.Font(family='Helvetica', size=20, weight=font.BOLD)
 
-#logo
 img = ImageTk.PhotoImage(Image.open("logo2.PNG"))
 display = Canvas(window, bg="black", height=30, width=100, bd=0, highlightthickness=0)
 display.create_image(0, 0, image=img, anchor=NW, tags="IMG")
