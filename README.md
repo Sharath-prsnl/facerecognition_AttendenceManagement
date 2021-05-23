@@ -11,6 +11,11 @@
 - inbuilt camera/webcam
 - python 
 
+## Cloning the repository
+```
+git clone https://github.com/Sharath-prsnl/facerecognition_AttendenceManagement.git
+```
+
 ## How to setup Project
 
 Use a command to setup the project
