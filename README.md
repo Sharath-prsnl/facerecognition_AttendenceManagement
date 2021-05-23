@@ -1,6 +1,7 @@
-# FACE RECOGNITION
+## FACE RECOGNITION
 <p>This repository contains code for Facial recognition using openCV and python with a tkinter GUI interface. If you want to test the code then run home.py file</p>
-## Technology used : 
+
+## Technologies used : 
 - openCV (Opensource Computer Vision)
 - Python
 - tkinter GUI interface
