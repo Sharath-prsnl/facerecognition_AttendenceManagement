@@ -1,4 +1,4 @@
-## FACE RECOGNITION
+## FACE RECOGNITION BASED ATTENDENCE MANAGEMENT SYSTEM
 <p>This repository contains code for Facial recognition using openCV and python with a tkinter GUI interface. If you want to test the code then run home.py file</p>
 
 ## Technologies used : 
