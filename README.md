@@ -35,4 +35,5 @@ To run the application
 ```
 python home.py
 ```
+To capture photo press "q"
 
