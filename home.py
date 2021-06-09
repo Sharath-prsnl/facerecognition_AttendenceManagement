@@ -8,13 +8,15 @@ from add_new import draw_ui
 import csv
 import os
 import Search
+import datetime
+import time
 
 
 def open_add_new():
     draw_ui()
 
 def displaycsv():
-    os.startfile('Attendance\Attendance_2021-05-23.csv')
+    os.startfile('Attendance\Attendance_'+ datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d') +'.csv')
 
 
 
