@@ -60,13 +60,13 @@ def TakeImages(Id, name, Department,  Subject, Semester):
         cam.release()
         cv2.destroyAllWindows() 
         res = "Images Saved for ID : " + Id +" Name : "+ name
+        
         row = [Id , name, Department, Subject, Semester]
-        # row_heading = ["Id ", "name", "Department", "Subject", "Semester"]
         with open('StudentDetails\StudentDetails.csv','a+') as csvFile:
             writer = csv.writer(csvFile)
-            # writer.writerow(row_heading)
             writer.writerow(row)
         csvFile.close()
+        
     else:
         if(is_number(Id)):
             res = "Enter Alphabetical Name"
